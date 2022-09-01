@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "CircularStd-Book", sans-serif;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.clearfix {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'CircularStd-Black', sans-serif;
+font-family: 'CircularStd-Bold', sans-serif;
+font-family: 'CircularStd-Book', sans-serif;
+font-family: 'CircularStd-Medium', sans-serif;
+*/
+
+/*header*/
+header {
+  background-color: #1d314e;
+  padding: 24px 0;
+}
+
+.logo {
+  float: left;
+}
+.header-aside {
+  float: right;
+}
+.date {
+  font-size: 1.5rem;
+  color: #586c88;
+  text-align: right;
+  letter-spacing: 0.11px;
+  margin-bottom: 19px;
+}
+
+.main-menu li {
+  float: left;
+  margin-right: 83px;
+}
+
+.main-menu li:last-of-type {
+  margin-right: 0;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #cdd9eb;
+  font-size: 1.5rem;
+  letter-spacing: 0.11px;
+  text-align: center;
+}
+
+li a.active {
+  font-family: "CircularStd-Black", sans-serif;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+/*lead section*/
+
+.lead-section {
+  padding: 168px 0 177px;
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.lead-title {
+  color: #cdd9eb;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+.lead-subtitle {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  margin-bottom: 39px;
+}
+
+a.register {
+  border: 2px solid #cdd9eb;
+  display: inline-block;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: "CircularStd-Bold", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 1.2rem;
+  color: #cdd9eb;
+}
+
+/*news*/
+
+.news {
+  background-color: #f1f6ff;
+  padding: 70px 0;
+}
+
+.news-item {
+  float: left;
+  width: 30%;
+  margin-right: 49px;
+}
+
+.news-item:last-of-type {
+  margin-right: 0;
+}
+
+.news-item-title a {
+  font-size: 2rem;
+  color: #adb8c7;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 18px;
+}
+
+.news-item-image {
+  margin-bottom: 17px;
+}
+
+.news-item-image img {
+  display: block;
+  width: 100%;
+}
+
+.news-item-date {
+  color: #adb8c7;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  line-height: 2.7rem;
+}
+
+.news-item-text {
+  color: #3b4d66;
+  font-family: "Roboto", sans-serif;
+  line-height: 2.2rem;
+  margin-bottom: 21px;
+}
+
+.read-more {
+  color: #586c88;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.1px;
+  margin-bottom: 67px;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #1d314e;
+  padding: 70px 0 62px;
+}
+
+.footer-info {
+  float: left;
+  width: 50%;
+}
+
+.footer-nav,
+.social {
+  float: left;
+  width: 25%;
+}
+
+.footer-logo {
+  margin-bottom: 35px;
+  display: block;
+}
+
+.footer-info p {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: #cdd9eb;
+  max-width: 274px;
+}
+
+.footer .copyright {
+  color: #cdd9eb;
+}
+
+.footer-menu li {
+  float: left;
+  width: 50%;
+  line-height: 1.2rem;
+  letter-spacing: 0.11px;
+  color: #cdd9eb;
+  font-family: "CircularStd-Medium", sans-serif;
+}
+
+.footer-menu li a {
+  letter-spacing: 0.11px;
+  color: #cdd9eb;
+  font-family: "CircularStd-Medium", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 0;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  margin-bottom: 20px;
+}
+
+.footer-menu li a.active {
+  color: #ffffff;
+  border-bottom: 2px solid #adb8c7;
+}
+
+.social {
+  text-align: center;
+}
+
+.social a {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 1px solid #cdd9eb;
+  line-height: 33px;
+  text-align: center;
+  margin-right: 10px;
+  color: #cdd9eb;
+  font-size: 1.8rem;
+}
+
+.copyright {
+  text-align: right;
+  color: #cdd9eb;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.13px;
+  padding-right: 101px;
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Bodoni+Moda:opsz@6..96&family=Marcellus&family=Poppins:wght@300&family=Roboto&display=swap");
+
+@font-face {
+  font-family: "CircularStd-Black";
+  src: url("/fonts/CircularStd-Black/CircularStd-Black.woff2") format("woff2"),
+    url("/fonts/CircularStd-Black/CircularStd-Black.woff") format("woff"),
+    url("/fonts/CircularStd-Black/CircularStd-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CircularStd-Bold";
+  src: url("/fonts/CircularStd-Bold/CircularStd-Bold.woff2") format("woff2"),
+    url("/fonts/CircularStd-Bold/CircularStd-Bold.woff") format("woff"),
+    url("/fonts/CircularStd-Bold/CircularStd-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CircularStd-Book";
+  src: url("/fonts/CircularStd-Boook/CircularStd-Book.woff2") format("woff2"),
+    url("/fonts/CircularStd-Book/CircularStd-Book.woff") format("woff"),
+    url("/fonts/CircularStd-Book/CircularStd-Book.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CircularStd-Medium";
+  src: url("/fonts/CircularStd-Medium/CircularStd-Medium.woff2") format("woff2"),
+    url("/fonts/CircularStd-Medium/CircularStd-Medium.woff") format("woff"),
+    url("/fonts/CircularStd-Medium/CircularStd-Medium.ttf") format("truetype");
+}
